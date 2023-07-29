@@ -3,48 +3,48 @@
     *{
         padding: 0;
         margin: 0;
+        width: auto;
+        height: auto;
         background:#bdc4e0;
         font-family: 'Inter';
         font-weight: 400;
-        font-size: 48px;
-    
+        font-size: 12px;
     }
     .logo { 
         padding-top: 25px;
-        
-        width: 90%;
+        width: 20%;
     }
     main{
-        display: flex;
-        margin-bottom: 10px;
-        margin-left: 10px;
+        width: auto;
+        height: auto;
     }
     
     .text-area {
-        height: 400px;
+        height: 300px;
         border: none;
-        color: #0A3871;
+        color: #02141d;
         margin-top: 30px;
         padding: 2px;
         text-transform: lowercase;
+        margin-left: 35px;
     }
-    ::placeholder { color: #0A3871; }
+    ::placeholder { color: #435a75; }
       .text-area:focus {
           outline: none;
         }
     
     .mensaje{
-        height: 400px;
-        width: 350px;
+        height: 180px;
+        width: 180px;
         background: white;
         background-image: url("/imagenes/Muñeco.png");
         background-repeat: no-repeat;
         background-position: center;
         border: none;
-        border-radius: 24px;
-        color: #0A3871;
-        top: 800px;
-        right: 80px;
+        border-radius: 10px;
+        color: #0a1a2e;
+        top:-170px;
+        left: 50PX;
         position: relative;
     }
     .mensaje:focus {
@@ -54,88 +54,113 @@
     .botones{
         display: flex;
         margin-top: 18px;
+        display: block;
+        margin-top: auto;
     }
     
     .btn-desencriptar {
-        background: #D8DFE8;
+        background: #1a434b;
         border: 1px solid #0A3871;
         border-radius: 24px;
-        color: #0A3871;
+        color: #f5f7fa;
         cursor: pointer;
-        height: 67px;
-        margin-left: 30px;
-        width: 328px;
+        height: 30px;
+        width: 150px;
+        display: block;
+        margin-top: auto;
+        position: relative;
+        top: -180px;
+        left: 58PX;
     }
     
     .btn-encriptar {
-        background-color: #0A3871;
+        background-color: #438b97;
         border: 1px solid #0A3871;
         border-radius: 24px;
-        color: white;
+        color: rgb(255, 255, 255);
         cursor: pointer;
-        height: 67px;
-        width: 328px;
+        height: 30px;
+        width: 150px;
+        position: relative;
+        top: -190px;
+        left: 58PX;
     }
     
     .copiar {
         border: 1px solid #0A3871;
         border-radius: 24px;
-        color: #0A3871;
+        color: #fafafa;
+        background-color: #14464d;
         cursor: pointer;
-        height: 67px;
-        margin-left: 120px;
-        margin-top: 555px;
+        height: 30px;
+        width: 150px;
         position: relative;
-        width: 336px;
+        left: 60PX;
+        top: -170PX;
     }
     
     .informacion {
-        color: #495057;
-        font-size:18px;
+        color: #282a2c;
+        font-size:11px;
+        position: relative;
+        top: -200px;
+        padding: 40PX;
     }
     
 } 
 
+
+
+
 @media(min-width: 320px) and (max-width: 414px){
 
+    *{
+        padding: 0;
+        margin: 0;
+        width: auto;
+        height: auto;
+        background:#bdc4e0;
+        font-family: 'Inter';
+        font-weight: 400;
+        font-size: 12px;
+    }
     .logo { 
-        padding-top: 10px;
-        margin-left: 10px;
-        width: 10%;
+        padding-top: 25px;
+        width: 20%;
     }
     main{
-        display: flex;
-        margin-bottom: 10px;
-        margin-left: 180px;
-        
+        width: auto;
+        height: auto;
     }
     
     .text-area {
-        height: 400px;
+        height: 300px;
         border: none;
-        color: #0A3871;
+        color: #02141d;
         margin-top: 30px;
         padding: 2px;
         text-transform: lowercase;
+        margin-left: 35px;
+        width: 300px;
     }
-    ::placeholder { color: #0A3871; }
+    ::placeholder { color: #435a75; }
       .text-area:focus {
           outline: none;
         }
     
     .mensaje{
-        height: 630px;
+        height: 180px;
+        width: 275px;
         background: white;
         background-image: url("/imagenes/Muñeco.png");
         background-repeat: no-repeat;
         background-position: center;
         border: none;
-        border-radius: 24px;
-        color: #0A3871;
-        margin-left: 98px;
-        margin-top: 20px;
-        padding-left: 20px;
-        position: fixed;
+        border-radius: 10px;
+        color: #0a1a2e;
+        top:-170px;
+        left: 50PX;
+        position: relative;
     }
     .mensaje:focus {
         outline: none;
@@ -144,46 +169,64 @@
     .botones{
         display: flex;
         margin-top: 18px;
+        display: block;
+        margin-top: auto;
     }
     
     .btn-desencriptar {
-        background: #D8DFE8;
+        background: #1a434b;
         border: 1px solid #0A3871;
         border-radius: 24px;
-        color: #0A3871;
+        color: #f5f7fa;
         cursor: pointer;
-        height: 67px;
-        margin-left: 30px;
-        width: 328px;
+        height: 30px;
+        width: 170px;
+        display: block;
+        margin-top: auto;
+        position: relative;
+        top: -200px;
+        left: 100px;
     }
     
     .btn-encriptar {
-        background-color: #0A3871;
+        background-color: #438b97;
         border: 1px solid #0A3871;
         border-radius: 24px;
-        color: white;
+        color: rgb(255, 255, 255);
         cursor: pointer;
-        height: 67px;
-        width: 328px;
+        height: 30px;
+        width: 170px;
+        position: relative;
+        top: -210px;
+        left: 100PX;
     }
     
     .copiar {
         border: 1px solid #0A3871;
         border-radius: 24px;
-        color: #0A3871;
+        color: #fafafa;
+        background-color: #14464d;
         cursor: pointer;
-        height: 67px;
-        margin-left: 120px;
-        margin-top: 565px;
-        position: absolute;
-        width: 336px;
+        height: 30px;
+        width: 170px;
+        position: relative;
+        left: 100PX;
+        top: -160PX;
     }
     
     .informacion {
-        color: #495057;
-        font-size:18px;
+        color: #282a2c;
+        font-size:15px;
+        position: relative;
+        top: -200px;
+        padding: 40PX;
     }
 }
+
+
+
+
+
 @media(min-width: 415px) and (max-width: 912px){
     .logo { 
         padding-top: 10px;
