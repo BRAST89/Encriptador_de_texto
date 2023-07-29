@@ -73,7 +73,7 @@ function desencriptar(stringDesencriptada){
     return stringDesencriptada
 }
 
-
+// se copia de text-tarea
 function copiar(){
     mensaje.select();
     navigator.clipboard.writeText(mensaje.value)
